@@ -71,43 +71,8 @@
   <x-data-centers />
 
   <!-- ***** CASE STUDY ***** -->
-  <section class="casestudy">
-    <div class="container">
-      <div class="sec-main sec-up bg-pink mb-0">
-        <img data-src="img/casestudy.png" class="lazyload" alt="Case Study">
-        <div class="plans badge feat bg-purple">case study</div>
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-9">
-            <div class="slider-container slider-filter">
-              <div class="slider-wrap">
-                <div class="swiper-container main-slider" data-autoplay="4000" data-touch="1" data-mouse="0" data-slides-per-view="responsive" data-loop="1" data-speed="1200" data-mode="horizontal" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="1">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <h3 class="author">Everth Group</h3>
-                      <div class="content-info">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamer rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
-                        <em> Michael Jones - Executive Director</em>
-                      </div>
-                      <a href="casestudy/casestudy-everthgroup.pdf" class="btn btn-default-yellow-fill mb-2">Case Study Download</a>
-                    </div>
-                    <div class="swiper-slide">
-                      <h3 class="author">Growtop Company</h3>
-                      <div class="content-info">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamer rem aperiam, eaque ipsa quae ab illo inventore.</p>
-                        <em> Matt Radford - President &amp; Managing Director</em>
-                      </div>
-                      <a href="casestudy/casestudy-growtop.pdf" class="btn btn-default-yellow-fill mb-2">Case Study Download</a>
-                    </div>
-                  </div>
-                  <div class="pagination vertical-mode pagination-index"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
+  
   <!-- ***** HELP ***** -->
   <section class="services help pt-4 pb-80">
     <div class="container">
@@ -121,33 +86,33 @@
                 </div>
                 <div class="inform">
                   <div class="title">Live Chat</div>
-                  <div class="description">Lorem Ipsum is simply dummy text printing.</div>
+                  <div class="description">Discutez directement avec nous via le widget de chat.</div>
                 </div>
               </a>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="help-container">
-              <a href="contact.html" class="help-item">
+              <a href="#" class="help-item">
                 <div class="img">
                   <img class="svg ico" src="fonts/svg/emailopen.svg" height="65" alt="">
                 </div>
                 <div class="inform">
-                  <div class="title">Send Ticket</div>
-                  <div class="description">Lorem Ipsum is simply dummy text printing.</div>
+                  <div class="title">Envoyer un ticket </div>
+                  <div class="description">Besoin d'aide? Ouvrez un ticket d'assistance</div>
                 </div>
               </a>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="help-container">
-              <a href="knowledgebase.html" class="help-item">
+              <a href="#" class="help-item">
                 <div class="img">
                   <img class="svg ico" src="fonts/svg/book.svg" height="65" alt="">
                 </div>
                 <div class="inform">
-                  <div class="title">Knowledge base</div>
-                  <div class="description">Lorem Ipsum is simply dummy text printing.</div>
+                  <div class="title">Guide</div>
+                  <div class="description">Suivez notre base de connaissances pour en savoir plus.</div>
                 </div>
               </a>
             </div>

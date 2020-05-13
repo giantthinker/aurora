@@ -4,8 +4,8 @@
     <div class="container">
       <div class="row">
         <div class="col-2 col-md-2">
-          <a href="index">
-            <img class="svg logo-menu" src="img/logo.svg" alt="logo Antler">
+          <a href="/">
+            <img class="svg logo-menu" src="img/logo.svg" alt="logo Aurora">
           </a>
         </div>
         <nav id="menu" class="col-10 col-md-10">
@@ -17,8 +17,9 @@
             </button>
             <ul class="main-menu nav navbar-nav navbar-right">
               <li class="menu-item menu-item-has-children">
-                <a class="m-0 pr-1 v-stroke" href="#" data-i18n="[html]header.home"> </a>
-                <div class="badge badge-pill bg-purple mr-4 wow animated shake delay-1s">NEW</div>
+                <a class="m-0 pr-1 v-stroke" href="/" data-i18n="[html]header.home"> </a>
+                <div class="badge badge-pill bg-purple mr-4 wow animated shake delay-1s">Acceuil</div>
+               <!--
                 <ul class="sub-menu">
                   <li class="menu-item"><a href="index" data-i18n="[html]submenu.homedefault"> </a></li>
                   <li class="menu-item"><a href="homevideo" data-i18n="[html]submenu.homevideo"> </a></li>
@@ -209,7 +210,7 @@
                               <img class="svg" src="fonts/svg/emailopen.svg" alt="Knowledgebase">
                             </div>
                             <div class="media-body">
-                              <a class="menu-item" href="contact" data-i18n="[html]submenu.contact"> </a>
+                              <a class="menu-item" href="#" data-i18n="[html]submenu.contact"> </a>
                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                             </div>
                           </div>
@@ -218,7 +219,7 @@
                               <img class="svg" src="fonts/svg/compare.svg" alt="Knowledgebase">
                             </div>
                             <div class="media-body">
-                              <a class="menu-item" href="legal" data-i18n="[html]submenu.legal"> </a>
+                              <a class="menu-item" href="#" data-i18n="[html]submenu.legal"> </a>
                               <div class="badge inside bg-grey ml-1">NEW</div>
                               <p>Eaque ipsa quae ab illo inventore veritatis et quasi</p>
                             </div>
@@ -229,7 +230,7 @@
                             </div>
                             <div class="media-body">
                               <div>
-                                <a class="menu-item" href="blog" data-i18n="[html]submenu.blog"> </a>
+                                <a class="menu-item" href="#" data-i18n="[html]submenu.blog"> </a>
                                 <div class="badge inside bg-pink ml-1">HOT</div>
                               </div>
                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
@@ -240,7 +241,7 @@
                               <img class="svg" src="fonts/svg/question.svg" alt="Knowledgebase">
                             </div>
                             <div class="media-body">
-                              <a class="menu-item" href="faq" data-i18n="[html]submenu.faq"> </a>
+                              <a class="menu-item" href="#" data-i18n="[html]submenu.faq"> </a>
                               <p>Eaque ipsa quae ab illo inventore veritatis et quasi</p>
                             </div>
                           </div>
@@ -249,8 +250,8 @@
                       <div class="start-offer col-md-3">
                         <div class="inner">
                           <div class="title mb-2">Support Premium</div>
-                          <div class="inner-content"><span>Call us:</span> <b>+ (123) 1300-656-1046</b> HeadQuarters - No.01 - 399-0 Lorem Street City Melbourne</div>
-                          <a href="contact" class="btn btn-default-yellow-fill mt-4">Contact</a>
+                          <div class="inner-content"><span>Appelez-nous:</span> <b>+ (237) 693-387-688</b> Siège Social - Douala, Buea - Cameroun</div>
+                          <a href="#" class="btn btn-default-yellow-fill mt-4">Contact</a>
                         </div>
                       </div>
                     </div>
@@ -260,6 +261,7 @@
               <li class="menu-item">
                 <a class="pr-0 mr-0" href="login"> <div class="btn btn-default-yellow-fill question" data-i18n="[html]header.login"><i class="fas fa-lock pr-1"></i> </div></a>
               </li>
+              -->
             </ul>
           </div>
         </nav>
@@ -362,8 +364,8 @@
               </div>
             </div>
             <li class="mt-4">
-              <p class="c-grey"> <small> Phone: + (123) 1300-656-1046</small> </p>
-              <p class="c-grey"><small>Email: antler@mail.com</small> </p>
+              <p class="c-grey"> <small> Tel: + (237) 693-387-688</small> </p>
+              <p class="c-grey"><small>Email: contact@theauroraweb.com</small> </p>
             </li>
             <li>
               <a href="login"><div class="btn btn-default-yellow-fill mt-3">CLIENT AREA</div></a>
