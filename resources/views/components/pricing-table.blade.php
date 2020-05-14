@@ -9,7 +9,7 @@
               <img class="svg mb-3" src="fonts/svg/dedicated.svg" alt="">
               <div class="title">Hébergement Web</div>
               <div class="fromer">À partir de:</div>
-              <div class="price">200,000<sup>FCFA</sup> <span class="period">/an</span></div>
+              <div class="price">20,000<sup>FCFA</sup> <span class="period">/an</span></div>
               <a href="#" class="btn btn-default-yellow-fill">Les Forfaits</a>
             </div>
             <ul class="list-info bg-purple">

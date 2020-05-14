@@ -21,9 +21,13 @@
     <link href="{{ asset('css/colors/pink.css') }}" rel="stylesheet" title="pink" media="none" onload="if(media!='all')media='all'"/>
     <link href="{{ asset('css/colors/blue.css') }}" rel="stylesheet" title="blue" media="none" onload="if(media!='all')media='all'"/>
     <link href="{{ asset('css/colors/green.css') }}" rel="stylesheet" title="green" media="none" onload="if(media!='all')media='all'"/>
+
+    <!-- Google site verification -->
+    <meta name="google-site-verification" content="t5QjyxBMof1X1ksI7dr4mZCLr8KBVbFF3deddl7n6dE" />
   </head>
   <body>
 
+    <x-top-header />
     @include('partials.menu')
 
     @yield('content')

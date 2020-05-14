@@ -4,8 +4,8 @@
       <div class="service-wrap">
         <div class="row">
           <div class="col-sm-12 text-left">
-            <h2 class="section-heading text-white">Our Datacenters are Located in 7 Regions</h2>
-            <p class="section-subheading"><span class="golink">Lorem ipsum dolor</span> sit amet, consectetur adipiscing elit sed, do eiusmod tempor  <span class="c-pink">incididunt lorem ipsum</span> dolor sit amet</p>
+            <h2 class="section-heading text-white">Nos Data Center dans le monde</h2>
+            <p class="section-subheading"><span class="golink">Nos Centre de données</span> Accélère le chargement de vos sites Web, quel que soit le trafic. Nous avons des <span class="c-pink">centres de données</span> dans de nombreuses régions du monde.</p>
           </div>
           <div class="col-md-12 pt-5 scrollme">
             <img data-src="patterns/map.svg" class="lazyload w-10 animateme" alt="Load Balancing" data-when="view" data-from="2" data-to="0" data-opacity="0">
