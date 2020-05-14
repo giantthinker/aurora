@@ -27,7 +27,7 @@
                 Un hébergement qui vous offre tout ce dont <br> vous avez besoin pour mettre votre site en ligne et <br>satisfaire vos clients avec un petit budget.
                 <br>à partir de <b class="c-pink">20,000 FCFA/an</b><br>
               </h3>
-              <a href="#" class="btn btn-default-yellow-fill mr-3">Nos Forfaits</a>
+              <a href="#nos-forfaits" class="btn btn-default-yellow-fill mr-3">Nos Forfaits</a>
               <a href="#" class="btn btn-default-pink-fill">En savoir plus</a>
             </div>
           </div>
@@ -61,6 +61,10 @@
   <!-- ***** LOAD BALANCING ***** -->
 
   <x-load-balancing />
+
+  <!-- ***** PRICING TABLES - COMPARISON ***** -->
+
+  <x-pricing-plans />
 
   <!-- ***** FEATURES ***** -->
  

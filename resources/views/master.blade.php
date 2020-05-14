@@ -27,6 +27,7 @@
   </head>
   <body>
 
+    <x-top-header />
     @include('partials.menu')
 
     @yield('content')
