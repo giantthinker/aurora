@@ -17,6 +17,9 @@
     <link href="{{ asset('css/swiper.min.css') }}" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
     <link href="{{ asset('css/animate.min.css') }}" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
     <link href="{{asset('css/style.min.css') }}" rel="stylesheet">
+    <link href="{{asset('css/magnific-popup.css') }}" rel="stylesheet">
+    <link href="{{asset('css/filter.css') }}" rel="stylesheet">
+    <link href="{{asset('css/style.min.css') }}" rel="stylesheet">
     <!-- Custom color styles -->
     <link href="{{ asset('css/colors/pink.css') }}" rel="stylesheet" title="pink" media="none" onload="if(media!='all')media='all'"/>
     <link href="{{ asset('css/colors/blue.css') }}" rel="stylesheet" title="blue" media="none" onload="if(media!='all')media='all'"/>
@@ -24,6 +27,7 @@
 
     <!-- Google site verification -->
     <meta name="google-site-verification" content="t5QjyxBMof1X1ksI7dr4mZCLr8KBVbFF3deddl7n6dE" />
+
   </head>
   <body>
 
@@ -31,6 +35,7 @@
     @include('partials.menu')
 
     @yield('content')
+    
 
 <footer id="footer"> </footer>
 <!-- ***** BUTTON GO TOP ***** -->

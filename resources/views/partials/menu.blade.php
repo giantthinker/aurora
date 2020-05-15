@@ -19,17 +19,9 @@
               <li class="menu-item menu-item-has-children">
                 <a class="m-0 pr-1 v-stroke" href="/" data-i18n="[html]header.home"> </a>
                 <div class="badge badge-pill bg-purple mr-4 wow animated shake delay-1s">Acceuil</div>
-               <!--
-                <ul class="sub-menu">
-                  <li class="menu-item"><a href="index" data-i18n="[html]submenu.homedefault"> </a></li>
-                  <li class="menu-item"><a href="homevideo" data-i18n="[html]submenu.homevideo"> </a></li>
-                  <li class="menu-item"><a href="homeimage" data-i18n="[html]submenu.homeimage"> </a></li>
-                  <li class="menu-item"><a href="homegaming" data-i18n="[html]submenu.homegaming"> </a> <div class="menu badge feat bg-purple">NEW</div></li>
-                  <li class="menu-item"><a href="home3d" data-i18n="[html]submenu.home3d"> </a> <div class="menu badge feat bg-purple">NEW</div></li>
-                  <li class="menu-item"><a href="http://inebur.com/antler/template-rtl/" target="_blank">Antler (RTL) </a> <div class="menu badge feat bg-pink">NEW</div></li>
-                  <li class="menu-item"><a href="http://inebur.com/whmcs/?systpl=antler-rtl&language=arabic" target="_blank">WHMCS (RTL) </a> <div class="menu badge feat bg-pink">NEW</div></li>
-                </ul>
+             
               </li>
+              <!--
               <li class="menu-item menu-item-has-children">
                 <a class="m-0 pr-1 v-stroke" href="#" data-i18n="[html]header.services"> </a>
                 <div class="badge badge-pill bg-purple mr-4">PRO</div>
@@ -89,6 +81,8 @@
                   </div>
                 </div>
               </li>
+              -->
+              <!--
               <li class="menu-item menu-item-has-children">
                 <a class="v-stroke" href="#" data-i18n="[html]header.pages"> </a>
                 <div class="sub-menu megamenu-list">
@@ -180,6 +174,7 @@
                   <li class="menu-item"><a href="sections" data-i18n="[html]submenu.sections"> </a></li>
                 </ul>
               </li>
+              -->
               <li class="menu-item menu-item-has-children menu-last">
                 <a class="v-stroke" href="#" data-i18n="[html]header.support"></a>
                 <div class="sub-menu megamenu">
@@ -187,6 +182,7 @@
                     <div class="row">
                       <div class="service-list col-md-9">
                         <div class="row">
+                        <!--
                           <div class="col-4 service">
                             <div class="media-left">
                               <img class="svg" src="fonts/svg/bookmark.svg" alt="Knowledgebase">
@@ -205,15 +201,17 @@
                               <p>Eaque ipsa quae ab illo inventore veritatis et quasi</p>
                             </div>
                           </div>
+                          -->
                           <div class="col-4 service">
                             <div class="media-left">
                               <img class="svg" src="fonts/svg/emailopen.svg" alt="Knowledgebase">
                             </div>
                             <div class="media-body">
-                              <a class="menu-item" href="#" data-i18n="[html]submenu.contact"> </a>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                              <a class="menu-item" href="contact#ticket" data-i18n="[html]submenu.contact"> </a>
+                              <p>Nous Contacter pour tout vos soucis</p>
                             </div>
                           </div>
+                          <!--
                           <div class="col-4 service">
                             <div class="media-left">
                               <img class="svg" src="fonts/svg/compare.svg" alt="Knowledgebase">
@@ -245,6 +243,7 @@
                               <p>Eaque ipsa quae ab illo inventore veritatis et quasi</p>
                             </div>
                           </div>
+                          -->
                         </div>
                       </div>
                       <div class="start-offer col-md-3">
@@ -258,6 +257,7 @@
                   </div>
                 </div>
               </li>
+              <!--
               <li class="menu-item">
                 <a class="pr-0 mr-0" href="login"> <div class="btn btn-default-yellow-fill question" data-i18n="[html]header.login"><i class="fas fa-lock pr-1"></i> </div></a>
               </li>
@@ -287,17 +287,10 @@
             <div class="menu-item">
               <a href="#" data-toggle="dropdown">Home <div class="badge badge-pill bg-purple">NEW</div></a>
               <div class="dropdown-menu">
-                <a class="dropdown-item menu-item" href="index">Home Default</a>
-                <a class="dropdown-item menu-item" href="homevideo">Home Video</a>
-                <a class="dropdown-item menu-item" href="homeimage">Home Image</a>
-                <a class="dropdown-item menu-item" href="homegaming">Home Gaming <div class="badge inside bg-purple ml-2">NEW</div></a>
-                <a class="dropdown-item menu-item" href="home3d">Home 3D <div class="badge inside bg-purple ml-2">NEW</div></a>
-                <a class="dropdown-item menu-item" href="http://inebur.com/antler/template-rtl/" target="_blank">Antler (RTL) 
-                  <div class="badge inside bg-pink ml-2">NEW</div></a>
-                <a class="dropdown-item menu-item" href="http://inebur.com/whmcs/?systpl=antler-rtl&language=arabic" target="_blank">WHMCS (RTL) 
-                  <div class="badge inside bg-pink ml-2">NEW</div></a>
+                <a class="dropdown-item menu-item" href="/">Acceuil</a>
               </div>
             </div>
+            <!--
             <div class="menu-item">
               <a href="#" data-toggle="dropdown">Hosting <div class="badge badge-pill bg-purple">PRO</div></a>
               <div class="dropdown-menu">
@@ -352,24 +345,31 @@
                 <a class="dropdown-item menu-item" href="sections">Sections</a>
               </div>
             </div>
+            -->
             <div class="menu-item menu-last">
-              <a href="#" data-toggle="dropdown">Support</a>
+              <a href="contact" data-toggle="dropdown">Support</a>
               <div class="dropdown-menu">
+              <!--
                 <a class="dropdown-item menu-item" href="knowledgebase-list">Knowlege List</a>
                 <a class="dropdown-item menu-item" href="knowledgebase-article">Knowlege Article</a>
-                <a class="dropdown-item menu-item" href="contact">Contact Us</a>
+                -->
+                <a class="dropdown-item menu-item" href="contact">Contact</a>
+                <!--
                 <a class="dropdown-item menu-item" href="legal">Legal</a>
                 <a class="dropdown-item menu-item" href="blog">Blog</a>
                 <a class="dropdown-item menu-item" href="faq">Faq</a>
+                -->
               </div>
             </div>
             <li class="mt-4">
-              <p class="c-grey"> <small> Tel: + (237) 693-387-688</small> </p>
+              <a href="tel:+237693387688" class="c-grey"> <small> Tel: + (237) 693-387-688</small> </a>
               <p class="c-grey"><small>Email: contact@theauroraweb.com</small> </p>
             </li>
+            <!--
             <li>
               <a href="login"><div class="btn btn-default-yellow-fill mt-3">CLIENT AREA</div></a>
             </li>
+            -->
           </ul>
         </nav>
       </div>

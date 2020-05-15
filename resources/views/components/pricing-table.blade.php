@@ -13,9 +13,9 @@
               <a href="#" class="btn btn-default-yellow-fill">Les Forfaits</a>
             </div>
             <ul class="list-info bg-purple">
-              <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4x 3.20Ghz 2 Cores</span></li>
-              <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>16GB (up to 32GB)</span></li>
-              <li><i class="icon-drivessd"></i> <span class="c-pink">DRIVES</span><br> <span>2 x 1TB SATA 3.5</span></li>
+              <li><i class="icon-cpu"></i> <span class="c-pink">PROCESSEUR</span><br> <span>Dual 12-core</span></li>
+              <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>64 GB 2666MHz DDR4</span></li>
+              <li><i class="icon-drivessd"></i> <span class="c-pink">DISQUE SSD</span><br> <span>SAMSUNG SM883 </span></li>
               <li><i class="icon-git"></i> <span class="c-pink">UPLINK</span><br> <span>1Gbps - 20TB</span></li>
             </ul>
           </div>
@@ -30,10 +30,10 @@
               <a href="#" class="btn btn-default-yellow-fill">Les Forfaits</a>
             </div>
             <ul class="list-info">
-              <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 Cores</span></li>
-              <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2GB Memory</span></li>
-              <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>20GB SSD Space</span></li>
-              <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>1TB Bandwidth</span></li>
+              <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>à la demande</span></li>
+              <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>à la demande</span></li>
+              <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>à la demande</span></li>
+              <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>à la demande</span></li>
             </ul>
           </div>
         </div>
@@ -44,13 +44,13 @@
               <div class="title">Développement Web</div>
               <div class="fromer">À partir de:</div>
               <div class="price">200,000<sup>FCFA</sup> <span class="period">/par site</span></div>
-              <a href="hosting" class="btn btn-default-yellow-fill">Les Prix</a>
+              <a href="#" class="btn btn-default-yellow-fill">Les Prix</a>
             </div>
             <ul class="list-info">
-              <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>250GB SSD</span></li>
-              <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>1TB Bandwidth</span></li>
-              <li><i class="icon-emailopen"></i> <span class="c-purple">EMAIL</span><br> <span>120 Emails</span></li>
-              <li><i class="icon-domains"></i> <span class="c-purple">TLD</span><br> <span>30 Domains</span></li>
+              <li><i class="icon-drives"></i> <span class="c-purple">Conception </span><br> <span>professionnelle</span></li>
+              <li><i class="icon-speed"></i> <span class="c-purple">Vitesse de la page Web</span><br> <span>2 seconds</span></li>
+              <li><i class="icon-emailopen"></i> <span class="c-purple">Navigation conviviale</span><br> <span>design simple</span></li>
+              <li><i class="icon-domains"></i> <span class="c-purple">Compatibilité Web</span><br> <span>Tout navigateur</span></li>
             </ul>
           </div>
         </div>
