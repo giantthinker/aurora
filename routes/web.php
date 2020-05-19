@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
-});
+Route::get('/', 'HomeController@index');
 
 Route::get('contact', 'ContactController@index');
 Route::post('contact-us', 'ContactController@store');

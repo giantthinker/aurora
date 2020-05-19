@@ -4,16 +4,18 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
+use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Http\Request;
 use Mail;
 use App\Mail\ContactEmail;
 use App\ContactMessage;
+use Meta;
 
-
-class ContactController extends Controller
+class ContactController extends Controller implements ShouldQueue
 {
     public function index() 
     {
+        Meta::set('title', 'Contactez-nous. Assistance hebergement');
         return view('pages.contact');
     }
 

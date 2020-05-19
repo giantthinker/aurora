@@ -56,7 +56,7 @@
   </section>
   <!-- ***** PRICING TABLES ***** -->
   
-  <x-pricing-table/>
+  <x-pricing-table />
 
   <!-- ***** LOAD BALANCING ***** -->
 
