@@ -16,6 +16,7 @@ class ContactController extends Controller implements ShouldQueue
     public function index() 
     {
         Meta::set('title', 'Contactez-nous. Assistance hebergement');
+        Meta::set('description', "Nos personnels de support d'hébergement sont disponibles 24h / 24 et 7j / 7 et sont prêts à vous aider pour tout problème ou clarification concernant l'hébergement Web.")
         return view('pages.contact');
     }
 

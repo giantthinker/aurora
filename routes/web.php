@@ -17,3 +17,5 @@ Route::get('/', 'HomeController@index');
 
 Route::get('contact', 'ContactController@index');
 Route::post('contact-us', 'ContactController@store');
+
+Route::get('wordpress', 'Hosting\WordpressHosting@index');

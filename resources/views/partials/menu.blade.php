@@ -21,12 +21,12 @@
                 <div class="badge badge-pill bg-purple mr-4 wow animated shake delay-1s">Acceuil</div>
              
               </li>
-              <!--
               <li class="menu-item menu-item-has-children">
-                <a class="m-0 pr-1 v-stroke" href="#" data-i18n="[html]header.services"> </a>
+                <a class="m-0 pr-1 v-stroke" href="#" >Hébergement </a>
                 <div class="badge badge-pill bg-purple mr-4">PRO</div>
                 <div class="sub-menu menu-large">
                   <div class="service-list">
+                  <!--
                     <div class="service">
                       <img class="svg" src="fonts/svg/cloudfiber.svg" alt="Shared Hosting">
                       <div class="media-body">
@@ -57,13 +57,15 @@
                         <p>At vero eos et accusamus et iusto odio</p>
                       </div>
                     </div>
+                    -->
                     <div class="service">
                       <img class="svg" src="fonts/svg/wordpress.svg" alt="WordPress Hosting">
                       <div class="media-body">
-                        <a class="menu-item" href="wordpress" data-i18n="[html]submenu.wordpress"> </a>
-                        <p>On the other hand, we denounce with</p>
+                        <a class="menu-item" href="wordpress" > Hébergement WordPress</a>
+                        <p>Hébergement WordPress Premium</p>
                       </div>
                     </div>
+                    <!--
                     <div class="service">
                       <img class="svg" src="fonts/svg/domains.svg" alt="Domains">
                       <div class="media-body">
@@ -78,6 +80,7 @@
                         <p>ed ut perspiciatis unde omnis iste natus</p>
                       </div>
                     </div>
+                    -->
                   </div>
                 </div>
               </li>
@@ -285,24 +288,29 @@
           </button>
           <ul class="main-menu">
             <div class="menu-item">
-              <a href="#" data-toggle="dropdown">Home <div class="badge badge-pill bg-purple">NEW</div></a>
+              <a href="#" data-toggle="dropdown">Home <div class="badge badge-pill bg-purple">Acceuil</div></a>
               <div class="dropdown-menu">
                 <a class="dropdown-item menu-item" href="/">Acceuil</a>
               </div>
             </div>
-            <!--
+         
             <div class="menu-item">
-              <a href="#" data-toggle="dropdown">Hosting <div class="badge badge-pill bg-purple">PRO</div></a>
+              <a href="#" data-toggle="dropdown">Hébergement <div class="badge badge-pill bg-purple">PRO</div></a>
               <div class="dropdown-menu">
+                <!--
                 <a class="dropdown-item menu-item" href="hosting">Shared Hosting</a>
                 <a class="dropdown-item menu-item" href="reseller">Cloud Reseller</a>
                 <a class="dropdown-item menu-item" href="dedicated">Dedicated Server</a>
                 <a class="dropdown-item menu-item" href="vps">Cloud VPS</a>
-                <a class="dropdown-item menu-item" href="wordPress">WordPress Hosting</a>
+                -->
+                <a class="dropdown-item menu-item" href="wordPress">Hébergement WordPress</a>
+                <!--
                 <a class="dropdown-item menu-item" href="domains">Domain Names</a>
                 <a class="dropdown-item menu-item" href="developer">Developer Hosting</a>
+                -->
               </div>
             </div>
+            <!--
             <div class="menu-item">
               <a href="#" data-toggle="dropdown">Pages</a>
               <div class="dropdown-menu">
@@ -345,7 +353,6 @@
                 <a class="dropdown-item menu-item" href="sections">Sections</a>
               </div>
             </div>
-            -->
             <div class="menu-item menu-last">
               <a href="contact" data-toggle="dropdown">Support</a>
               <div class="dropdown-menu">
@@ -376,3 +383,10 @@
     </div>
   </div>
 </div>
+
+<script defer src="js/scripts.min.js"></script>
+<script>
+$("#nav-toggle").click(function(){
+$(".menu-wrap.mobile, .menu-toggle").toggleClass("active");
+});
+</script>

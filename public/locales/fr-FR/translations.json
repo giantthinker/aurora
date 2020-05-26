@@ -1,7 +1,7 @@
 {
     "header": {
       "home": "Acceuil",
-      "services": "Hosting",
+      "services": "Hébergement",
       "pages": "Pages",
       "features": "Features",
       "support": "Support",
@@ -17,7 +17,7 @@
       "reseller": "Cloud Reseller",
       "dedicated": "Dedicated Servers",
       "vps": "Cloud VPS",
-      "wordpress": "WordPress Hosting",
+      "wordpress": "Hébergement WordPress",
       "domains": "Domains Names",
       "developer": "Developer Hosting",
       "ssl": "SSL Certificates",
